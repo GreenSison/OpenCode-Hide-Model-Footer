@@ -34,7 +34,7 @@ opencode plugin add opencode-hide-model-footer
 Or install straight from GitHub:
 
 ```bash
-opencode plugin add github:Sundree/opencode-hide-model-footer
+opencode plugin add github:GreenSison/OpenCode-Hide-Model-Footer
 ```
 
 The package exposes both a server entrypoint and a `./tui` entrypoint. OpenCode
@@ -48,7 +48,7 @@ Restart the TUI, or run `/reload` if it is already open.
 Clone the repository into the global plugin directory:
 
 ```bash
-git clone https://github.com/Sundree/opencode-hide-model-footer \
+git clone https://github.com/GreenSison/OpenCode-Hide-Model-Footer \
   ~/.config/opencode/plugins/opencode-hide-model-footer
 ```
 

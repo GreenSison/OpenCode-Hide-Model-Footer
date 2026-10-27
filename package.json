@@ -4,14 +4,14 @@
   "description": "OpenCode TUI plugin that hides the composer model/provider metadata row.",
   "type": "module",
   "license": "MIT",
-  "author": "Sundree",
+  "author": "Sundree (https://github.com/GreenSison)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sundree/opencode-hide-model-footer.git"
+    "url": "git+https://github.com/GreenSison/OpenCode-Hide-Model-Footer.git"
   },
-  "homepage": "https://github.com/Sundree/opencode-hide-model-footer#readme",
+  "homepage": "https://github.com/GreenSison/OpenCode-Hide-Model-Footer#readme",
   "bugs": {
-    "url": "https://github.com/Sundree/opencode-hide-model-footer/issues"
+    "url": "https://github.com/GreenSison/OpenCode-Hide-Model-Footer/issues"
   },
   "keywords": [
     "opencode",
