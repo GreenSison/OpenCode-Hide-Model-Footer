@@ -1,0 +1,50 @@
+{
+  "name": "opencode-hide-model-footer",
+  "version": "0.1.0",
+  "description": "OpenCode TUI plugin that hides the composer model/provider metadata row.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Sundree",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sundree/opencode-hide-model-footer.git"
+  },
+  "homepage": "https://github.com/Sundree/opencode-hide-model-footer#readme",
+  "bugs": {
+    "url": "https://github.com/Sundree/opencode-hide-model-footer/issues"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tui",
+    "footer",
+    "model",
+    "composer"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.ts"
+  },
+  "files": [
+    "index.ts",
+    "tui.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck",
+    "prepublishOnly": "npm run typecheck"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.1.4"
+  },
+  "peerDependencies": {
+    "@opentui/core": ">=0.6.8"
+  },
+  "devDependencies": {
+    "@opentui/core": "^0.7.0",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
