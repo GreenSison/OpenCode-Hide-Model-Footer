@@ -1,5 +1,7 @@
 # opencode-hide-model-footer
 
+[![CI](https://github.com/GreenSison/OpenCode-Hide-Model-Footer/actions/workflows/ci.yml/badge.svg)](https://github.com/GreenSison/OpenCode-Hide-Model-Footer/actions/workflows/ci.yml)
+
 An OpenCode TUI plugin that hides the composer metadata row:
 
 ```text
@@ -25,16 +27,18 @@ This plugin fills that gap. It is deliberately small and has no UI of its own.
 
 ## Install
 
-Once published:
-
-```bash
-opencode plugin add opencode-hide-model-footer
-```
-
-Or install straight from GitHub:
+### From GitHub
 
 ```bash
 opencode plugin add github:GreenSison/OpenCode-Hide-Model-Footer
+```
+
+### From npm
+
+After the first npm release:
+
+```bash
+opencode plugin add opencode-hide-model-footer
 ```
 
 The package exposes both a server entrypoint and a `./tui` entrypoint. OpenCode
